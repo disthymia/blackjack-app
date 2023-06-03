@@ -10,11 +10,18 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1 {
     color: goldenrod;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
+}
+
+p {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
 }
 
 #message-el {
